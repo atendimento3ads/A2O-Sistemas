@@ -1,0 +1,10 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ferramentas locais
+.claude/
+
+# Logs / temporários
+*.log
+node_modules/

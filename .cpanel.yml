@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    # IMPORTANTE: troque "USUARIO" pelo usuário da sua conta cPanel.
+    # Ex.: /home/a2osist/public_html  (ou um subdiretório, ex.: .../public_html/wireframe)
+    - export DEPLOYPATH=/home/USUARIO/public_html
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH/index.html
